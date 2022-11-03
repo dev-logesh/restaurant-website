@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juicy</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/67/67670.png">
+    
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style/contact.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- contact section starts here -->
+<section class="contact-section">
+    <section class="contact">
+        <div class="Quries">
+            <h2> Send us a message </h2>
+            <p> If you have any types of quries related to my website, you can send me message from here. It's my pleasure to help you.
+            </p>
+        </div>
+    <div class="form" >
+        <form class="contact-form" action="1.html">
+            <input type="name" name="full-name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <textarea type="address" name="msg" placeholder="Enter your message" required></textarea><br>
+            <input class="submit-form" type="submit" name="submit" value="Send Now">
+        </form>
+    </div>
+    </section>
+    <section class="ourcontact">
+        <div class="address">
+            <h2> Address </h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1955.6031073430781!2d79.7061995390271!3d11.392563461986763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54c3c1b02e7399:0xc478e255551c7e99!2sJuicy!5e0!3m2!1sen!2sin!4v1667456739234!5m2!1sen!2sin"  width=200px height=150px></iframe>
+            </div>
+        </div>
+        <div class="phone">
+            <h2> Phone </h2>
+            <p>+91 9645912159</p>
+        </div>
+
+       
+        <style>
+            /*
+    Auther: Abdelrhman Said
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+        </style>
+        
+            <br><h2>Developer</h2>
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                      <span class="tooltip">Facebook</span>
+                      <a href="https://www.facebook.com/sgl.kumar.7/"><span><i class="fab fa-facebook-f"></i></span></a>
+                    </li>
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <a href="https://t.me/cl_me_logesh"><span><i class="fab fa-twitter"></i></span></a>
+                    </li>
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <a href="https://instagram.com/cl_me_logesh/"><span><i class="fab fa-instagram"></i></span></a>
+                    </li>
+                    <li class="icon github">
+                      <span class="tooltip">Github</span>
+                      <a href="https://github.com/LOGI-LAB"><span><i class="fab fa-github"></i></span></a>
+                    </li>
+                  </ul>
+                    
+                
+            </div>
+
+    </section>
+</section>
+
+    <hr>
+    <!-- social Section Starts Here -->
+<!-- social Section Starts Here -->
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p style="color: white; width:100%">copyright &copy 2022. Created By <a href="https://logesh.xyz">LOGESH</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+</body>
+</html>
